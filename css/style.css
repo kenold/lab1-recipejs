@@ -27,8 +27,6 @@ section h2 {
 }
 /* End CSS Reset */
 
-/* MAIN STYLES */
-
 /* Color variables */
 :root {
     --base-color: #2e2e2e;
@@ -177,6 +175,9 @@ ul.directions__list {
     }
     h1.recipe__heading {	
         font-size: 2.125rem;
+    }
+    .recipe__widget__list {
+        border: 0;
     }
     .recipe__widget__item {    
         flex-direction: row;
