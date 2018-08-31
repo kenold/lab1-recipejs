@@ -41,6 +41,10 @@ p {
 }
 
 /* Recipe Overview Header */
+.recipe__overview {
+    display: flex;
+    flex-direction: column;
+}
 .recipe__overview figure {
     margin: 0 -15px 2rem;
 }
