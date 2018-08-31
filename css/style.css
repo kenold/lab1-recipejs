@@ -220,4 +220,10 @@ ul.directions__list {
     .recipe__content {
         flex-direction: row;
     }
+    .recipe__ingredients {
+        flex: 1;
+    }
+    .recipe__directions {
+        flex: 1;
+    }
 }    
