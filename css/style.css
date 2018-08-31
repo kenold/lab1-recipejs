@@ -48,8 +48,10 @@ p {
     max-width: 100%;
 }
 .recipe__photo__icon {
+    color: red;
+    font-size: 2rem;
     position: absolute;
-    top: 30;
+    top: 20;
     right: 30;
 }
 
