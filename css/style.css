@@ -72,13 +72,12 @@ li {
     flex-direction: column;
 }
 .recipe__overview figure {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .recipe__photo {    
     position: relative;
 }
 .recipe__photo__img {
-    border-radius: 10px;
     max-width: 100%; 
 }
 .recipe__photo__icon::before {
@@ -109,7 +108,7 @@ h1.recipe__heading {
 }
 .recipe__rating {
     color: var(--accent-color);
-    margin-top: 1rem;
+    margin-bottom: .5rem;
 }
 .recipe__rating__text {
     color: var(--light-color);
@@ -152,9 +151,6 @@ ul.directions__list {
     margin: 2rem 0;
 }
 
-
-
-
 /* ********************************* */
 /* DESKTOP */
 /* ********************************* */
@@ -168,6 +164,10 @@ ul.directions__list {
     }
     .recipe__photo {
         flex: 1;
+    }
+    .recipe__photo__img {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
     .recipe__summary {
         padding-left: 2rem;
