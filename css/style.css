@@ -42,9 +42,15 @@ p {
 /* Recipe Overview Header */
 .recipe__photo {
     margin-bottom: 2rem;
+    position: relative;
 }
 .recipe__photo__img {
     max-width: 100%;
+}
+.recipe__photo__icon {
+    position: absolute;
+    top: 30;
+    right: 30;
 }
 
 .recipe__category {
