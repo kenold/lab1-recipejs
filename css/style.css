@@ -17,6 +17,13 @@ ol, ul {
 body {
     line-height: 1;
 }
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/* End CSS Reset */
+
 section {
     margin-bottom: 2rem;
 }
@@ -29,7 +36,6 @@ section h2 {
     padding-bottom: .5rem;
     text-transform: uppercase;
 }
-/* End CSS Reset */
 
 /* Color variables */
 :root {
@@ -41,7 +47,6 @@ section h2 {
 }
 body {
     color: var(--base-color);
-    counter-reset: steps;
     font-family: "Roboto", arial, sans-serif;
     font-weight: 400;
     letter-spacing: .02em;
@@ -126,15 +131,17 @@ h1.recipe__heading {
     padding-bottom: 1rem;
 }
 ul.directions__list {
-    /* padding-left: 0.5rem; */
+    /* reset the counter */
+    counter-reset: steps;
     margin-bottom: 2.8rem;
-    padding-left: 30px;
     list-style-position: outside;
 }
 .directions__list li::before {     
     counter-increment: steps;                 
-    /* Increment value of steps counter by 1 */
-    content: counter(steps) ". "; 
+    /* increment value of steps counter by 1 */
+    content: counter(steps) ". ";
+    background-color: var(--primary-color);
+    color: #fff;
 }
 .recipe__widget__item {
     display: flex;
