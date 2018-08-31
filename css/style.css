@@ -158,6 +158,10 @@ ul.directions__list {
 	content: "";
 	clear: both;
 }
+.directions__text {
+    float: left;
+    width: calc(100% - 55px);
+}
 .recipe__widget__item {
     display: flex;
     flex-direction: column;
