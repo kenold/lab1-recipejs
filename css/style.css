@@ -153,6 +153,9 @@ ul.directions__list {
 /* DESKTOP */
 /* ********************************* */
 @media (min-width: 576px) {
+    body {
+        padding-top: 1rem;
+    }
     .recipe__overview {
         display: flex;
         flex-direction: row;
