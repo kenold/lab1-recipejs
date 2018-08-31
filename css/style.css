@@ -54,8 +54,10 @@ h1 {
 .recipe__subtitle {
     padding: 1rem 0;
 }
+
 .recipe__widget__list {
     display: flex;
+    justify-content: space-between;
 }
 
 .recipe__content {
