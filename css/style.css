@@ -50,7 +50,7 @@ p {
     flex-direction: column;
 }
 .recipe__overview figure {
-    margin: 0 -15px 2rem;
+    margin-bottom: 2rem;
 }
 .recipe__photo {    
     position: relative;
@@ -68,8 +68,7 @@ p {
     left: 30;
 }
 
-.recipe__summary,
-main, footer {
+.box {
     padding-left: 15px;
     padding-right: 15px;
 }
