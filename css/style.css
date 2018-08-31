@@ -76,12 +76,16 @@ p {
 .recipe__photo__icon::before {
     color: var(--accent-color);
     content: "\f004";
+    cursor: pointer;
     font-family: 'Font Awesome\ 5 Free';
     font-size: 2rem;
     font-weight: 900;
     position: absolute;
     top: 20;
     left: 30;
+}
+.recipe__photo__icon:hover::before {
+    color:green;
 }
 .recipe__category {
     color: var(--light-color);
