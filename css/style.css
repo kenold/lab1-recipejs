@@ -139,7 +139,7 @@ ul.directions__list {
 .directions__list li::before {     
     counter-increment: steps;                 
     /* increment value of steps counter by 1 */
-    content: counter(steps) ". ";
+    content: counter(steps);
     background-color: var(--primary-color);
     color: #fff;
     display: inline-block;
