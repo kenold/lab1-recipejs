@@ -23,6 +23,10 @@ section {
 section h2 {
     font-size: 1.125rem;
     font-weight: 500;
+    border-bottom: 2px solid var(--primary-color);
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding-bottom: .5rem;
     text-transform: uppercase;
 }
 /* End CSS Reset */
@@ -146,11 +150,6 @@ ul.directions__list {
 /* Recipe Main Content */
 .recipe__content {
     margin: 2rem 0;
-}
-
-section h2 {
-    border-bottom: 1px solid var(--primary-color);
-    padding-bottom: 1rem;
 }
 
 /* ********************************* */
