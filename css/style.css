@@ -24,6 +24,12 @@ body {
     font-weight: 300;
     letter-spacing: .02em;
 }
+.wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 p {
     font-size: 1.1rem;
 }
@@ -31,4 +37,31 @@ h1 {
     font-size: 2.5rem;
     font-style: normal;
     line-height: 48px;
+}
+
+/* Recipe styles */
+.recipe__photo {
+    margin-bottom: 2rem;
+}
+.recipe__photo__img {
+    max-width: 100%;
+}
+
+.recipe__category {
+    text-transform: uppercase;
+}
+
+.recipe__subtitle {
+    padding: 1rem 0;
+}
+.recipe__widget__list {
+    display: flex;
+}
+
+.recipe__content {
+    margin: 3rem 0;
+}
+
+footer.main-footer {
+    
 }
