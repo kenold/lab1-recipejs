@@ -20,6 +20,8 @@ body {
 
 /* Main Styles */
 :root {
+    --primary-color: #000;
+    --accent-color: #F55F5F;
     --line-color: #e6e6e6;
     --light-color: #4d4d4d;
 }
@@ -41,18 +43,20 @@ p {
 
 /* Recipe Overview Header */
 .recipe__photo {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;    
     position: relative;
 }
 .recipe__photo__img {
-    max-width: 100%;
+    max-width: 100%;    
 }
-.recipe__photo__icon {
-    color: red;
+.recipe__photo__icon::before {
+    color: var(--accent-color);
+    content: "\f004";
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 2rem;
     position: absolute;
     top: 20;
-    right: 30;
+    left: 30;
 }
 
 .recipe__category {
