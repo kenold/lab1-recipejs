@@ -35,8 +35,6 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 900px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
 }
 p {
     font-size: 1.1rem;
@@ -64,7 +62,7 @@ p {
 }
 
 .recipe__summary,
-main {
+main, footer {
     padding-left: 15px;
     padding-right: 15px;
 }
