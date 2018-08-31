@@ -105,9 +105,9 @@ h1.recipe__heading {
     padding-bottom: 1rem;
 }
 
-/* Recipe Main Conten */
+/* Recipe Main Content */
 .recipe__content {
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 /* ********************************* */
@@ -117,6 +117,9 @@ h1.recipe__heading {
     .recipe__overview {
         display: flex;
         flex-direction: row;
+    }
+    .recipe__overview figure {
+        margin-bottom: 0;
     }
     .recipe__photo {
         flex: 1;
