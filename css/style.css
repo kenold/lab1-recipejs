@@ -171,6 +171,8 @@ ul.directions__list {
 
 /* Recipe Main Content */
 .recipe__content {
+    display: flex;
+    flex-direction: column;
     margin: 2rem 0;
 }
 
@@ -214,5 +216,8 @@ ul.directions__list {
     }
     .recipe__widget__icon {
         padding-right: 0.375rem;
+    }
+    .recipe__content {
+        flex-direction: row;
     }
 }    
