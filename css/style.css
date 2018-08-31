@@ -53,16 +53,29 @@ body {
 p {
     font-size: 1.1rem;
 }
+li {
+    margin-bottom: 0.6rem;
+}
 .box {
     padding-left: 15px;
     padding-right: 15px;
 }
 
 /* GENERAL */
-.directions__list li::before {
+ul.directions__list {
+    /* padding-left: 0.5rem; */
+    margin-bottom: 2.8rem;
+    padding-left: 30px;
+    list-style-position: outside;
+}
+.directions__list li {
+    /* padding-right: 1rem; */
+}
+.directions__list li::before {     
     counter-increment: steps;                 
     /* Increment value of steps counter by 1 */
-  content: counter(steps); 
+    content: counter(steps) ". "; 
+    /* padding-right: 1rem; */
 }
 
 /* ********************************* */
