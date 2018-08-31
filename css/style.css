@@ -18,6 +18,11 @@ body {
 }
 /* End CSS Reset */
 
+/* Main Styles */
+:root {
+    --line-color: #e6e6e6;
+    --light-color: #4d4d4d;
+}
 body {
     color: #2e2e2e;
     font-family: "Roboto", arial, sans-serif;
@@ -33,13 +38,8 @@ body {
 p {
     font-size: 1.1rem;
 }
-h1 {			
-    font-size: 2.5rem;
-    font-style: normal;
-    line-height: 48px;
-}
 
-/* Recipe styles */
+/* Recipe Overview Header */
 .recipe__photo {
     margin-bottom: 2rem;
 }
@@ -48,18 +48,40 @@ h1 {
 }
 
 .recipe__category {
+    color: var(--light-color);
+    font-size: 80%;
+    font-weight: 500;
     text-transform: uppercase;
 }
+h1.recipe__heading {			
+    /* font-size: 2.5rem; */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
 
-.recipe__subtitle {
+.recipe__subtitle {    
     padding: 1rem 0;
 }
 
 .recipe__widget__list {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid var(--line-color);
+    padding-bottom: 1rem;;
 }
 
+.recipe__widget__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.recipe__widget__icon {
+    padding-bottom: 1rem;
+}
+
+/* Recipe Main Conten */
 .recipe__content {
     margin: 3rem 0;
 }
