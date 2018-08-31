@@ -34,14 +34,17 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 900px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 p {
     font-size: 1.1rem;
 }
 
 /* Recipe Overview Header */
+.recipe__overview figure {
+    margin: -15px;
+}
 .recipe__photo {
     margin-bottom: 2rem;    
     position: relative;
@@ -59,6 +62,11 @@ p {
     left: 30;
 }
 
+.recipe__summary,
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .recipe__category {
     color: var(--light-color);
     font-size: 80%;
