@@ -39,6 +39,7 @@ section h2 {
 }
 body {
     color: var(--base-color);
+    counter-reset: steps;
     font-family: "Roboto", arial, sans-serif;
     font-weight: 400;
     letter-spacing: .02em;
@@ -55,6 +56,13 @@ p {
 .box {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+/* GENERAL */
+.directions__list li::before {
+    counter-increment: steps;                 
+    /* Increment value of steps counter by 1 */
+  content: counter(steps); 
 }
 
 /* ********************************* */
@@ -135,6 +143,9 @@ h1.recipe__heading {
 .recipe__content {
     margin: 2rem 0;
 }
+
+
+
 
 /* ********************************* */
 /* DESKTOP */
