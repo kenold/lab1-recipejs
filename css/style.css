@@ -100,7 +100,7 @@ li {
 .recipe__photo__icon:hover::before {
     color:var(--primary-color);
 }
-.recipe__category {
+.recipe__breadcrumb {
     color: var(--light-color);
     font-size: 80%;
     font-weight: 500;
