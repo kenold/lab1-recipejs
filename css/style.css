@@ -143,14 +143,14 @@ ul.directions__list {
     background-color: var(--primary-color);
     color: #fff;
     display: inline-block;
+    float: left;
+	font-size: 1.25rem;
 	width: 40px;
 	height: 40px;
-	margin-right: 15px;
-	float: left;
     border-radius: 50%;
-	font-size: 1.25rem;
+    line-height: 40px;
+	margin-right: 15px;
 	text-align: center;
-	line-height: 40px;
 }
 /* reset float:left above */
 .directions__list li::after {
