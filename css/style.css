@@ -30,8 +30,7 @@ section h2 {
 /* Color variables */
 :root {
     --base-color: #2e2e2e;
-    --primary-color: #000;
-    --secondary-color: #48C985;
+    --primary-color: #48C985;
     --accent-color: #F55F5F;
     --line-color: #e6e6e6;
     --light-color: #4d4d4d;
@@ -90,7 +89,7 @@ li {
     left: 30;
 }
 .recipe__photo__icon:hover::before {
-    color:var(--secondary-color);
+    color:var(--primary-color);
 }
 .recipe__category {
     color: var(--light-color);
@@ -139,7 +138,7 @@ ul.directions__list {
     text-align: center;
 }
 .recipe__widget__icon {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 2rem;
     padding-bottom: 0.7rem;
 }
@@ -147,6 +146,11 @@ ul.directions__list {
 /* Recipe Main Content */
 .recipe__content {
     margin: 2rem 0;
+}
+
+section h2 {
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 1rem;
 }
 
 /* ********************************* */
