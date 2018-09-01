@@ -100,7 +100,7 @@ li {
 }
 .recipe__photo__icon:hover::before {
     color:var(--primary-color);
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 .recipe__breadcrumb {
     color: var(--light-color);
@@ -114,14 +114,17 @@ h1.recipe__heading {
     font-weight: 400;
     line-height: 48px;
 }
-.recipe__rating {
+.recipe__rating__list {
     color: var(--accent-color);
     margin-bottom: .5rem;
+}
+.recipe__rating__item {
+    cursor: pointer;
     transition: all .2s ease-in-out;
 }
-.recipe__rating:hover {
+.recipe__rating__item:hover {
     color:var(--primary-color);
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 .recipe__rating__text {
     color: var(--light-color);
