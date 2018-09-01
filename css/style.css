@@ -39,14 +39,15 @@ section h2 {
 
 /* Color variables */
 :root {
-    --base-color: #2e2e2e;
-    --primary-color: #48C985;
     --accent-color: #F55F5F;
-    --line-color: #e6e6e6;
+    --text-color: #2e2e2e;
+    --dark-color: #242424;
     --light-color: #4d4d4d;
+    --line-color: #e6e6e6;
+    --primary-color: #48C985;
 }
 body {
-    color: var(--base-color);
+    color: var(--text-color);
     font-family: "Roboto", arial, sans-serif;
     font-weight: 400;
     letter-spacing: .02em;
