@@ -202,7 +202,11 @@ ul.directions__list {
 .main-footer {
     background-color: var(--dark-color);
     color: var(--lighter-color);
+    padding: 3rem 0;
     text-align: center;
+}
+.footer__copyrights {
+    margin-bottom: 2rem;
 }
 .main-footer p {
     font-size: 90%;
