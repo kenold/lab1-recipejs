@@ -197,6 +197,13 @@ ul.directions__list {
     padding-right: 2rem;
 }
 
+.main-footer {
+    text-align: center;
+}
+.main-footer p {
+    font-size: 90%;
+}
+
 /* ********************************* */
 /* DESKTOP */
 /* ********************************* */
