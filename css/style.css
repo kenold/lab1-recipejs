@@ -144,6 +144,7 @@ h1.recipe__heading {
 }
 ul.ingredients__list {
     list-style-type: square;
+    margin-left: 1rem;
 }
 ul.directions__list {
     /* reset the counter */
