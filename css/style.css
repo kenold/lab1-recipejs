@@ -140,6 +140,9 @@ h1.recipe__heading {
     border-bottom: 1px solid var(--line-color);
     padding-bottom: 1rem;
 }
+ul.ingredients__list {
+    list-style-type: square;
+}
 ul.directions__list {
     /* reset the counter */
     counter-reset: steps;
