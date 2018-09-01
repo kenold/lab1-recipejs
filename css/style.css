@@ -131,6 +131,7 @@ h1.recipe__heading {
 .recipe__rating__text {
     color: var(--light-color);
     font-weight: 400;
+    padding-left: 1rem;
 }
 .recipe__text {    
     padding: 0.5rem 0 1.5rem;
