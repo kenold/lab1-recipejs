@@ -22,6 +22,9 @@
 		function favorite() {
 			alert("You added 'Garlic Butter Shrimp Pasta Recipe' to your favorite!");
 		}
+		function rate() {
+			alert("Thanks for rating this recipe!");
+		}
 
 		document.write('<div class="recipe wrapper">');
 
@@ -46,10 +49,10 @@
 					// star ratings
 					var star = '<i class="recipe__rating__item fas fa-star"></i>';
 					var starRatings = 
-						'<div class="recipe__rating__list">' + star + star + star + star + 
+						'<span class="recipe__rating__list" onclick="rate()">' + star + star + star + star + 
 							'<i class="recipe__rating__item fas fa-star-half-alt"></i>'+ 
-							'<span class="recipe__rating__text">4.5 of 5</span>'+ 
-						'</div>';
+						'</span>' +
+						'<span class="recipe__rating__text">4.5 of 5</span>';
 					document.write(starRatings);
 
 					var recipeDescription = 
