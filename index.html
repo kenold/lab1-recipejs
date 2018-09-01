@@ -52,8 +52,10 @@
 						'</div>';
 					document.write(starRatings);
 
+					var recipeDescription = 
+						'Garlic Butter Shrimp Pasta with shrimps in garlic butter sauce served over al dente pasta. Ready in minutes and with the most amazing flavor, it’s the perfect weeknight dinner!';
 
-					document.write('<p class="recipe__text">Garlic Butter Shrimp Pasta with shrimps in garlic butter sauce served over al dente pasta. Ready in minutes and with the most amazing flavor, it’s the perfect weeknight dinner!</p>');
+					document.write('<p class="recipe__text">' + recipeDescription + '</p>');
 				
 					var widgetList =
 						'<div class="recipe__widget__list">' + 
@@ -73,6 +75,8 @@
 					document.write(widgetList);
 				document.write(divClose); // recipe__summary
 			document.write('</header>');
+
+			document.write('<div class="recipe__text__landscape box">' + recipeDescription + '</div>')
 
 			document.write('<main class="recipe__content box">');
 
