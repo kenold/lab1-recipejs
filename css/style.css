@@ -43,6 +43,7 @@ section h2 {
     --text-color: #2e2e2e;
     --dark-color: #242424;
     --light-color: #4d4d4d;
+    --lighter-color: #bbb;
     --line-color: #e6e6e6;
     --primary-color: #48C985;
 }
@@ -199,7 +200,8 @@ ul.directions__list {
 }
 
 .main-footer {
-    background-color: #eee;
+    background-color: var(--dark-color);
+    color: var(--lighter-color);
     text-align: center;
 }
 .main-footer p {
