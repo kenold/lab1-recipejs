@@ -138,12 +138,19 @@
 				document.write(recipeSource);
 
 				var websiteTools =
- 					'<div class="footer__tools">' + 
- 						'<p><span class="footer__tools--upper">Tools used to build this page</span>: HTML, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Flexbox</a> for layout. <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> for icons.' +
-						'<p>For font size unit, I chose to use <a href="https://engageinteractive.co.uk/blog/em-vs-rem-vs-px" target="_blank">REM</a> instead of pixels. I also used ' + 
- 						'<a href="http://getbem.com/introduction/" target="_blank">CSS BEM Naming</a> because it allows me to write clean and maintainable CSS.</p>' +
+ 					'<div class="footer__tools">' +
+						'<h5 class="footer__heading">Tools used to build this page</h5>' + 
+ 						'<p>HTML, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Flexbox</a> for layout. <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> for icons.';
 					'</div>';
 				document.write(websiteTools);
+
+				var websiteResources =
+					'<div class="footer__resources">' +
+						'<h5 class="footer__heading">Resources</h5>' +	
+						'<p>Font size unit <a href="https://engageinteractive.co.uk/blog/em-vs-rem-vs-px" target="_blank">REM vx Pixels</a> // ' + 
+ 						'Write clean and maintainable CSS with <a href="http://getbem.com/introduction/" target="_blank">BEM Naming</a></p>' +
+					'</div>';
+				document.write(websiteResources);
 			document.write(divClose); // footer__content
 
  		document.write('</footer>'); 	
