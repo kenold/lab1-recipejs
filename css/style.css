@@ -189,6 +189,10 @@ ul.directions__list {
     flex-direction: column;
     margin: 2rem 0;
 }
+.recipe__ingredients,
+.recipe__directions {
+    padding-right: 2rem;
+}
 
 /* ********************************* */
 /* DESKTOP */
