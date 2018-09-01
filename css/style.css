@@ -216,11 +216,11 @@ ul.directions__list {
     padding: 0 2rem;
 }
 .main-footer a {
-    color: var(--accent-color);
+    color: white;
     text-decoration: none;
 }
 .main-footer a:hover {
-    color: var(--primary-color);
+    text-decoration: underline;
 }
 .footer__heading {
     color: var(--primary-color);
