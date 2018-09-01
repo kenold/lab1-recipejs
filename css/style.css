@@ -222,6 +222,11 @@ ul.directions__list {
 .main-footer a:hover {
     color: var(--primary-color);
 }
+.footer__heading {
+    color: var(--primary-color);
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
 
 /* ********************************* */
 /* DESKTOP */
