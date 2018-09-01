@@ -207,6 +207,13 @@ ul.directions__list {
 .main-footer p {
     font-size: 90%;
 }
+.main-footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.main-footer a:hover {
+    color: var(--primary-color);
+}
 
 /* ********************************* */
 /* DESKTOP */
