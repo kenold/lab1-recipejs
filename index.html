@@ -12,7 +12,7 @@
 </head>
 <body>
 	<script>
-		// closing tags
+		// closing tag variables
 		var aClose = '</a>';
 		var pClose = '</p>';
 		var divClose = '</div>';
@@ -22,6 +22,7 @@
 		function favorite() {
 			alert("You added 'Garlic Butter Shrimp Pasta Recipe' to your favorite!");
 		}
+
 		function rate() {
 			alert("Thanks for rating this recipe!");
 		}
@@ -46,7 +47,7 @@
 						'</div>';
 					document.write(recipeTitle);
 
-					// star ratings
+					// STAR RATINGS
 					var star = '<i class="recipe__rating__item fas fa-star"></i>';
 					var starRatings = 
 						'<span class="recipe__rating__list" onclick="rate()">' + star + star + star + star + 
@@ -59,7 +60,8 @@
 						'Garlic Butter Shrimp Pasta with shrimps in garlic butter sauce served over al dente pasta. Ready in minutes and with the most amazing flavor, it’s the perfect weeknight dinner!';
 
 					document.write('<p class="recipe__text">' + recipeDescription + '</p>');
-				
+
+					// WIDGET ICONS -- PREP TIME, SERVINGS, CALORIES
 					var widgetList =
 						'<div class="recipe__widget__list">' + 
 							'<div class="recipe__widget__item">' + 
@@ -83,24 +85,26 @@
 
 			document.write('<main class="recipe__content box">');
 
+				// INGREDIENTS
 				document.write('<section class="recipe__ingredients">');
 
 					document.write('<h2 class="ingredients__heading">Ingredients</h2>');
 
 					var ingredientsList = 
 						'<ul class="ingredients__list">' + 
-						'<li class="ingredient__item">1 pound angel hair pasta</li>' + 
-						'<li class="ingredient__item">1 cup butter</li>' + 
-						'<li class="ingredient__item">1 head garlic, peeled and minced</li>' + 
-						'<li class="ingredient__item">1 tablespoon fresh basil, chiffonaded</li>' + 
-						'<li class="ingredient__item">1/2 teaspoon dried red pepper flakes</li>' + 
-						'<li class="ingredient__item">1 pound large shrimps, peeled and deveined, leaving tail intact</li>' + 
-						'<li class="ingredient__item">salt and pepper to taste</li>' + 
-						'<li class="ingredient__item">1 tablespoon Parmesan cheese, grated</li>' + 
+							'<li class="ingredient__item">1 pound angel hair pasta</li>' + 
+							'<li class="ingredient__item">1 cup butter</li>' + 
+							'<li class="ingredient__item">1 head garlic, peeled and minced</li>' + 
+							'<li class="ingredient__item">1 tablespoon fresh basil, chiffonaded</li>' + 
+							'<li class="ingredient__item">1/2 teaspoon dried red pepper flakes</li>' + 
+							'<li class="ingredient__item">1 pound large shrimps, peeled and deveined, leaving tail intact</li>' + 
+							'<li class="ingredient__item">salt and pepper to taste</li>' + 
+							'<li class="ingredient__item">1 tablespoon Parmesan cheese, grated</li>' + 
 						'</ul>';
 					document.write(ingredientsList);
 				document.write(sectionClose); // recipe__ingredients section
 
+				// DIRECTIONS
  				document.write('<section class="recipe__directions">'); 
 					document.write('<h2 class="directions__heading">Directions</h2>'); 
 
@@ -138,6 +142,7 @@
 
 			document.write('<div class="footer__content wrapper">');
 				document.write('<div class="footer__copyrights">&copy; 2018. Created by Kenold Beauplan</div>');
+				
 				var recipeSource = 
 					'<p class="footer__source">' + 
 						'The recipe photo and text were taken from <a href="https://www.onionringsandthings.com/garlic-butter-shrimp-pasta/" target="_blank">Onion Rings &amp; Things</a>.' + 
@@ -159,6 +164,7 @@
 						'CSS Custom Properties <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables" target="_blank">Variables</a>.</p>' +
 					'</div>';
 				document.write(websiteResources);
+			
 			document.write(divClose); // footer__content
 
  		document.write('</footer>'); 	
