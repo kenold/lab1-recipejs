@@ -208,6 +208,7 @@ ul.directions__list {
 
 .share__list {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
 }
