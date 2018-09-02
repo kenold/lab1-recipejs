@@ -49,6 +49,7 @@ section h2 {
 }
 body {
     color: var(--text-color);
+    background-color: #fff;
     font-family: "Roboto", arial, sans-serif;
     font-weight: 400;
     letter-spacing: .02em;
