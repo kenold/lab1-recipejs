@@ -20,6 +20,7 @@
 		var sectionClose = '</section>';
 		var mainClose = '</main>';
 
+		// FUNCTIONS
 		function favorite() {
 			alert("You added '" + recipeName + "' recipe to your favorite!");
 		}
@@ -28,6 +29,13 @@
 			alert("Thanks for rating this recipe!");
 		}
 
+		function setDark() {
+			document.body.style.background = "#444";
+			document.body.style.color = "#fff"
+		}
+		// END FUNCTIONS
+
+		// MAIN CONTENT
 		document.write('<div class="recipe wrapper">');
 
 			document.write('<header class="recipe__overview">');
@@ -143,6 +151,7 @@
 
 			document.write('<div class="footer__content wrapper">');
 				document.write('<div class="footer__copyrights">&copy; 2018. Created by Kenold Beauplan</div>');
+				//document.write('<p>Theme: <a href="#" onclick="setDark()">Dark</a></p>');
 				
 				var recipeSource = 
 					'<p class="footer__source">' + 
