@@ -222,6 +222,7 @@ ul.directions__list {
 .share__item a {
     color: var(--dark-color);
     text-decoration: none;
+    cursor: pointer;
 }
 .share__item a:hover {
     color: var(--accent-color);
