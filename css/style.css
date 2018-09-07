@@ -52,17 +52,18 @@ body {
     background-color: #fff;
     font-family: "Roboto", arial, sans-serif;
     font-weight: 400;
-    letter-spacing: .02em;
-    line-height: 24px;
+    font-size: 1.05rem;
+    letter-spacing: 0.013rem;
+    line-height: 2;
     margin: 0;
 }
 .wrapper {
     margin: 0 auto;
     max-width: 980px;
 }
-p {
+/* p {
     font-size: 1.1rem;
-}
+} */
 li {
     margin-bottom: 0.6rem;
 }
