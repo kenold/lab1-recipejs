@@ -21,16 +21,6 @@
 		var sectionClose = '</section>';
 		var mainClose = '</main>';
 
-		// FUNCTIONS
-		function favorite() {
-			alert("You added '" + recipeName + "' recipe to your favorite!");
-		}
-
-		function action(actionName) {
-			alert("Thanks for " + actionName + " this recipe!");
-		}
-		// END FUNCTIONS
-
 		// MAIN CONTENT
 		document.write('<div class="recipe wrapper">');
 
@@ -189,7 +179,18 @@
 			
 			document.write(divClose); // footer__content
 
- 		document.write('</footer>'); 	
+ 		document.write('</footer>');
+
+		// FUNCTIONS
+		function favorite() {
+			alert("You added '" + recipeName + "' recipe to your favorite!");
+		}
+
+		function action(actionName) {
+			alert("Thanks for " + actionName + " this recipe!");
+		}
+		// END FUNCTIONS
+			
 	</script>
 </body>
 </html>
